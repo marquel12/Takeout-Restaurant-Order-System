@@ -20,7 +20,7 @@ Using Python to build out a program that allows customers to place orders with a
 
   ## Usage
   
-  ## Here is the main page
+  ## Here is a screenshot of me ordering food using the CLI
   ![Ordering food in CLI](image.png)
  
   
