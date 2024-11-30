@@ -75,7 +75,7 @@ def place_order(menu):
             # their order
     print("Thank you for your order.")
 
-            # TODO: Use a list comprehension to create a list called prices_list,
+            # TODO: Use a list comprehension to create a list called prices_list, 
             # which contains the total prices for each item in the order list:
             # The total price for each item should multiply the price by quantity
 
@@ -174,14 +174,14 @@ def print_itemized_receipt(receipt):
                     and quantity ordered.
     """
     # Uncomment the following line if you need to check the structure of the receipt
-    print(receipt)
+    # print(receipt)
 
     # TODO: Loop through the items in the customer's receipt
     for item in receipt:
 
     
         # TODO: Store the dictionary items ("Item name", "Price", "Quantity") as variables
-        item_name = item["Item name"] 
+        item_name = item["Item name"]  
         price = item["Price"] 
         quantity = item["Quantity"]
 
@@ -294,10 +294,10 @@ def get_menu_items_dict(menu):
         for meal, price in options.items():
             # Store the menu item number, item name and price in the menu_items
             menu_items[i] = {
-                "Item name": food_category + " - " + meal,
+                "Item name": food_category + " - " + meal,  # Combine the food category and meal
                 "Price": price
             }
-            i += 1
+            i += 1 # Increment the menu item number
 
     return menu_items
 
